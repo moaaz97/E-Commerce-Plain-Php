@@ -4,11 +4,13 @@
 
     //Routes
     $tpl = "include/templates/";
+    $lang = "include/languages/";
+    $func = "include/functions/";
     $css = "layout/css/";
     $js = "layout/js/";
-    $lang = "include/languages/";
 
     //Include the important files
+    include $func . "functions.php"; // include functions file
     include $lang . "english.php"; //Language File
     include $tpl . "header.php"; // include header layout
 
