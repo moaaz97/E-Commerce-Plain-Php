@@ -1,8 +1,11 @@
 <?php
     function lang($phrase)
     {
-        static $lang = array(
-          'Button' => 'إرسال'
+        static $words = array(
+          'login' => 'تسجيل الدخول',
+          'username' => 'الاسم',
+          'password' => 'الرقم السرى',
+          'mm' => 'تسجيل الدخول',
         );
-        return $lang[$phrase];
+        return $words[$phrase];
     }
