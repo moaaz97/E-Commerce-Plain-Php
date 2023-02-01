@@ -1,7 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
 <?php
-    include "include/template/header.php"
+    include "include/languages/english.php";
+    include "init.php";
+    include $tpl . "header.php";
 ?>
-    Welcome to Index
-<?php
-    include "include/template/footer.php"
-?>
+
+<div class="btn btn-danger btn-block"><?php echo lang('Button')?></div>
+
+<?php include "include/templates/footer.php"; ?>
